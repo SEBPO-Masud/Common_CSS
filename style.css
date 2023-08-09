@@ -1,0 +1,128 @@
+/* Common CSS */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.citrusX__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.citrusX__wrapper img {
+    width: 100%;
+}
+
+.citrusX__wrapper a {
+    text-decoration: none;
+}
+
+.citrusX__wrapper a:hover {
+    text-decoration: none;
+}
+
+.citrusX__wrapper h1,
+.citrusX__wrapper h2,
+.citrusX__wrapper h3,
+.citrusX__wrapper h4,
+.citrusX__wrapper h5,
+.citrusX__wrapper h6 {
+    padding: 0;
+    margin: 0;
+    line-height: initial;
+}
+
+.citrusX__wrapper p {
+    padding: 0;
+    margin: 0;
+    line-height: initial;
+}
+
+.citrusX__sectionGap {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.citrusX__sectionTitle {
+    margin: 0;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px !important;
+}
+
+.citrusX__sectionSubhead {
+    text-align: center;
+    font-size: 16px;
+    font-family: "PetcoCircularTT-Regular", arial !important;
+    color: black;
+    padding-bottom: 10px !important;
+}
+
+.citrusX__container {
+    padding-bottom: 40px;
+}
+
+.citrusX__commonCTA--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citrusX__commonCTA {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #001952;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 211px;
+    height: 56px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:1120px) {
+    .citrusX__commonCTA {
+        width: 170px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .citrusX__commonCTA {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .citrusX__commonCTA {
+        color: #001952;
+        text-transform: capitalize;
+        background-color: unset;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+        font-family: "PetcoCircularTT-Bold", arial !important;
+        font-weight: 900;
+        margin: 0 auto;
+    }
+}
+/* End Common CSS */
